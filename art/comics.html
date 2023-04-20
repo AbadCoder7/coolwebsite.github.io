@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue">
+      <title>Very cool website</title>
+   </head>
+   
+   <body>
+      <div class="banner">
+         <img src="https://i.gifer.com/XwI7.gif" style="-webkit-transform: scaleX(-1); transform: scaleX(-1);">
+         Comics
+         <img src="https://i.gifer.com/XwI7.gif">
+      </div>
+      <br>
+      <a href="art.html">Back</a>
+      <br><br>
+      <button class="meframe"></button><br>
+      <button class="meframe"></button><br>
+      <button class="meframe"></button><br>
+   </body>
+   
+   <style>
+      html {
+         font-family: "Comic Neue", sans-serif;
+         font-weight: 600;
+         background-color: skyblue;
+
+         text-align: center;
+      }
+
+      .banner {
+         width: 100%;
+         height: 60%;
+         background-color: purple;
+         background-image: url('https://images.pexels.com/photos/207142/pexels-photo-207142.jpeg?cs=srgb&dl=pexels-pixabay-207142.jpg&fm=jpg');
+         background-size: cover;
+         color: white;
+         font-size: 10vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         animation-name: textani;
+         animation-duration: 6s;
+         animation-iteration-count: infinite;
+         margin: 0;
+      }
+
+      @keyframes textani {
+         0% {color: white;}
+         10% {color: #07d98c;}
+         20% {color: #2dbf1d;}
+         30% {color: #fff700;}
+         40% {color: #ff19ff;}
+         50% {color: #13e0eb;}
+         60% {color: black;}
+         70% {color: #ff9100;}
+         80% {color: #2aeb7e;}
+         90% {color: #61eb2a;}
+         100% {color: white;}
+      }
+
+      .sitehyperbtn {
+         width: 25%;
+         height: 5%;
+         margin: 1%;
+         padding: 1%;
+         font-size: 4vh;
+         font-family: "Comic Neue", sans-serif;
+         font-weight: 600;
+         border: 1vh solid white;
+         border-radius: 30px;
+         cursor: pointer;
+         color: white;
+         background-color: purple;
+         background-size: cover;
+         animation-name: textani;
+         animation-duration: 6s;
+         animation-iteration-count: infinite;
+      }
+
+      .plainmaintxt {
+         font-size: 5vh;
+         margin: 2%;
+         animation-name: textani;
+         animation-duration: 6s;
+         animation-iteration-count: infinite;
+      }
+
+      a {
+         font-size: 2.5vh;
+         color: blue;
+         margin: 1%;
+         cursor: pointer;
+      }
+      a:hover {text-decoration: underline;}
+      
+      
+      .artframe {
+         width: 50%;
+         aspect-ratio: 1 / 1;
+         background-color: purple;
+         border: 1.5vh solid black;
+         margin: 2.5%;
+      }
+      .meframe {
+         width: 50%;
+         aspect-ratio: 9 / 3;
+         background-color: purple;
+         border: 1.5vh solid black;
+         margin: 2.5%;
+      }
+   </style>
+</html>
